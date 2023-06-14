@@ -11,7 +11,7 @@ const campgrounds = require("./routes/campgrounds");
 const reviews = require("./routes/reviews");
 
 const uri =
-  "mongodb+srv://pushpendra:semidot123@cluster0.0ysxpco.mongodb.net/yelpCampReview?retryWrites=true&w=majority";
+  "your mongodb url";
 
 mongoose.connect(uri, {
   useNewUrlParser: true,
